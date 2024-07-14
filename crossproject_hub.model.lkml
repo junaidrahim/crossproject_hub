@@ -1,12 +1,12 @@
-connection_name: "dbt_food_beverage"
+connection: "dbt_food_beverage"
 
-include: "./ruttee.view.lkml"
-include: "./placophora.view.lkml"
-include: "./preissuance.view.lkml"
-include: "./chrysopa.view.lkml"
+include: "./skipjack.view.lkml"
+include: "./distomatosis.view.lkml"
+include: "./odontopteris.view.lkml"
+include: "./scopate.view.lkml"
 
 
-explore: ruttee {}
-explore: placophora {}
-explore: preissuance {}
-explore: chrysopa {}
+explore: skipjack {}
+explore: distomatosis {}
+explore: odontopteris {}
+explore: scopate {}
