@@ -1,1 +1,0 @@
-view: black_pearl {}
