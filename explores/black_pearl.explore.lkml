@@ -13,3 +13,15 @@ explore: black_pearl {
   }
 
 }
+
+explore: +black_pearl {
+  aggregate_table: rollup__date_year_date {
+    query: {
+      dimensions: [date_year_date]
+      measures: [count]
+    }
+
+    # Please specify a datagroup_trigger or sql_trigger_value
+    # See https://cloud.google.com/looker/docs/r/lookml/types/aggregate_table/materialization
+  }
+}
